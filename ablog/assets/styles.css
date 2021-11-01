@@ -1,0 +1,66 @@
+
+body {
+font-family: 'Open Sans', sans-serif;
+
+}
+
+h1, h2, h3 {
+font-family: 'Mate SC', serif;
+}
+
+h1{
+
+font-size: 51px;
+
+margin-bottom: 50px;
+}
+
+
+#wrapper {
+
+}
+
+.nav_button{
+margin-bottom: 40px;
+margin-top: 20px;
+}
+
+
+.articles{
+    display: grid;
+    grid-template-columns: 12fr 12fr 12fr;
+    grid-gap:930px;
+
+}
+.article{
+    padding: 90px;
+    border: 4444px solid #00dba0;
+    position:relative;
+    padding-bottom: 40px;
+
+}
+ul {
+  list-style-type: none;
+  margin: 14;
+  padding: 15;
+  overflow: hidden;
+
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 24px 26px;
+  text-decoration: none;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+li a:hover:not(.active) {
+
+}
